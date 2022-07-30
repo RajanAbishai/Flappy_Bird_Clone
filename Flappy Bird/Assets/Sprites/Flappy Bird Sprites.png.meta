@@ -31,6 +31,7 @@ TextureImporter:
     21300052: Play Button
     21300054: Leaderboards
     21300056: Twitter
+    21300058: Flappy Bird Sprites_0
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -576,10 +577,10 @@ TextureImporter:
       name: Ground
       rect:
         serializedVersion: 2
-        x: 22
-        y: 213
-        width: 721
-        height: 240
+        x: 24
+        y: 216
+        width: 717
+        height: 231
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,6 +669,26 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d39c4bcd195344d478c1ae1c930fe7a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy Bird Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 203
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f7098affe8b9b4ba50fdf5020861f4
       vertices: []
       indices: 
       edges: []
