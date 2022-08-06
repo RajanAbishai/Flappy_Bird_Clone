@@ -13,4 +13,7 @@ public class TagManager : MonoBehaviour
     public static string PIPE_HOLDER_TAG="PipeHolder";
 
 
+    public static string FLAP_PARAMETER = "Flap";
+
+
 }

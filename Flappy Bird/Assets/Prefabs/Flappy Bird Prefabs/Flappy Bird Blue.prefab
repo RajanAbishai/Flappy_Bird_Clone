@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 239893465448736318}
   - component: {fileID: 239893465448736322}
   - component: {fileID: 239893465448736323}
-  m_Layer: 0
+  - component: {fileID: 6567066635694068892}
+  m_Layer: 11
   m_Name: Flappy Bird Blue
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68,8 +69,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 254200665
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300004, guid: 0c6fa29fd59bf604299f0d4eb1ab9863, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -138,3 +139,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &6567066635694068892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239893465448736319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e34f5cc72f502b4f9114e1fd25fa828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myRigidBody: {fileID: 239893465448736323}
+  anim: {fileID: 239893465448736318}
