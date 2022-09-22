@@ -42,9 +42,7 @@ public class PipeCollector : MonoBehaviour
     }
 
 
-
     
-
 
     private void OnTriggerEnter2D(Collider2D target)
     {
@@ -61,9 +59,13 @@ public class PipeCollector : MonoBehaviour
             lastPipeX = temp.x; //to re-assign the last position X to the variable
         }
 
+         if (target.tag == TagManager.PIPE_TAG)
+        {
+            print("collided with pipe");
+        }
 
     }
 
-
+    
 
 }
