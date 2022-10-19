@@ -16,6 +16,7 @@ public class gameController : MonoBehaviour
     {
         makeSingleTon();
         isTheGameStartedForTheFirstTime();
+        //PlayerPrefs.DeleteAll(); //to delete all the unlocked birds and set them to 0
     }
     void Start()
     {
@@ -49,8 +50,8 @@ public class gameController : MonoBehaviour
         {
             PlayerPrefs.SetInt(HIGH_SCORE, 0);
             PlayerPrefs.SetInt(SELECTED_BIRD, 0);
-            PlayerPrefs.SetInt(GREEN_BIRD, 0);
-            PlayerPrefs.SetInt(RED_BIRD, 0);
+            PlayerPrefs.SetInt(GREEN_BIRD, 1); //unlocking
+            PlayerPrefs.SetInt(RED_BIRD, 1); //unlocking
             PlayerPrefs.SetInt("isTheGameStartedForTheFirstTime", 0); // the value is not important. What's important is that we're storing this key
             /* so that the next time when we ask PlayerPrefs whether we have that key, it returns true.. which means the key is there and so, don't
             reinitialize our variables because our player can play the game, get a high score and unlock the green or the red bird.. and we will
