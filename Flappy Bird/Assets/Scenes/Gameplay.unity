@@ -146,7 +146,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 110, y: 100.37}
+  m_AnchoredPosition: {x: 133, y: 42}
   m_SizeDelta: {x: 198.4299, y: 46.733025}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &19278761
@@ -169,10 +169,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: cb32d9cdfd76d8440bc192d79d220964, type: 3}
-    m_FontSize: 14
+    m_FontSize: 10
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -435,7 +435,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 110, y: -23.62999}
+  m_AnchoredPosition: {x: 95.00002, y: -58.629982}
   m_SizeDelta: {x: 198.4299, y: 46.733025}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &184408617
@@ -458,10 +458,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: cb32d9cdfd76d8440bc192d79d220964, type: 3}
-    m_FontSize: 14
+    m_FontSize: 10
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -661,7 +661,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 198790959}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 297398914}
+        m_MethodName: ResumeGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &198790959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1345,7 +1356,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 19, y: 119}
   m_SizeDelta: {x: 211, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &379437452
@@ -1824,7 +1835,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 110, y: -73}
+  m_AnchoredPosition: {x: 95, y: -108}
   m_SizeDelta: {x: 198.4299, y: 46.733025}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &490684550
@@ -1847,10 +1858,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: cb32d9cdfd76d8440bc192d79d220964, type: 3}
-    m_FontSize: 14
+    m_FontSize: 10
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -2148,12 +2159,12 @@ PrefabInstance:
     - target: {fileID: 239893465448736316, guid: e9d87c9eb8def6649b62d5eef20bc126,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.92
+      value: -12
       objectReference: {fileID: 0}
     - target: {fileID: 239893465448736316, guid: e9d87c9eb8def6649b62d5eef20bc126,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.3622231
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 239893465448736316, guid: e9d87c9eb8def6649b62d5eef20bc126,
         type: 3}
@@ -2205,41 +2216,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Flappy Bird Blue
       objectReference: {fileID: 0}
-    - target: {fileID: 239893465448736319, guid: e9d87c9eb8def6649b62d5eef20bc126,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6567066635694068892, guid: e9d87c9eb8def6649b62d5eef20bc126,
-        type: 3}
-      propertyPath: audio
-      value: 
-      objectReference: {fileID: 627734313}
-    - target: {fileID: 6567066635694068892, guid: e9d87c9eb8def6649b62d5eef20bc126,
-        type: 3}
-      propertyPath: Audio
-      value: 
-      objectReference: {fileID: 627734313}
-    - target: {fileID: 6567066635694068892, guid: e9d87c9eb8def6649b62d5eef20bc126,
-        type: 3}
-      propertyPath: flapClip
-      value: 
-      objectReference: {fileID: 8300000, guid: cc9bc6d928388cc449c2aa26b8796418, type: 3}
-    - target: {fileID: 6567066635694068892, guid: e9d87c9eb8def6649b62d5eef20bc126,
-        type: 3}
-      propertyPath: pointClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 5c7817d6851607343afe84362d6ce6d8, type: 3}
-    - target: {fileID: 6567066635694068892, guid: e9d87c9eb8def6649b62d5eef20bc126,
-        type: 3}
-      propertyPath: diedClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 5d60a25cc6b02e344b22b8192a282013, type: 3}
-    - target: {fileID: 6567066635694068892, guid: e9d87c9eb8def6649b62d5eef20bc126,
-        type: 3}
-      propertyPath: audioSource
-      value: 
-      objectReference: {fileID: 627734313}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9d87c9eb8def6649b62d5eef20bc126, type: 3}
 --- !u!1 &627734312 stripped
@@ -2248,108 +2224,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 627734311}
   m_PrefabAsset: {fileID: 0}
---- !u!82 &627734313 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 467210821725940855, guid: e9d87c9eb8def6649b62d5eef20bc126,
-    type: 3}
-  m_PrefabInstance: {fileID: 627734311}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &627734314
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 627734312}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &693956996
 GameObject:
   m_ObjectHideFlags: 0
@@ -2959,7 +2833,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 905934002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.3, y: 0, z: -10}
+  m_LocalPosition: {x: -8.2, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1225831111}
@@ -5158,15 +5032,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Flappy Bird Red
       objectReference: {fileID: 0}
+    - target: {fileID: 5468016652900593616, guid: b7de3ec6a2b210b4ca77ebcdad829d46,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5468016652900593621, guid: b7de3ec6a2b210b4ca77ebcdad829d46,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.5
+      value: -12
       objectReference: {fileID: 0}
     - target: {fileID: 5468016652900593621, guid: b7de3ec6a2b210b4ca77ebcdad829d46,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5468016652900593621, guid: b7de3ec6a2b210b4ca77ebcdad829d46,
         type: 3}
@@ -5255,7 +5134,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -94.79, y: 100.37}
+  m_AnchoredPosition: {x: -120, y: 61}
   m_SizeDelta: {x: 198.4299, y: 46.733025}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1563459709
@@ -5457,7 +5336,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 110, y: 51}
+  m_AnchoredPosition: {x: 133.00002, y: -7.369999}
   m_SizeDelta: {x: 198.4299, y: 46.733025}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1900720266
@@ -5480,10 +5359,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: cb32d9cdfd76d8440bc192d79d220964, type: 3}
-    m_FontSize: 14
+    m_FontSize: 10
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -5544,7 +5423,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 411.49536, y: 273.06653}
+  m_SizeDelta: {x: 420, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1934049954
 MonoBehaviour:
@@ -6012,12 +5891,12 @@ PrefabInstance:
     - target: {fileID: 6890704936167245125, guid: 2567d0e9d1543f948b45e04a63c7859b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.5
+      value: -12
       objectReference: {fileID: 0}
     - target: {fileID: 6890704936167245125, guid: 2567d0e9d1543f948b45e04a63c7859b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6890704936167245125, guid: 2567d0e9d1543f948b45e04a63c7859b,
         type: 3}
@@ -6068,6 +5947,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Flappy Bird Green
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890704936167245126, guid: 2567d0e9d1543f948b45e04a63c7859b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2567d0e9d1543f948b45e04a63c7859b, type: 3}

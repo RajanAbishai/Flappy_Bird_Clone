@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class gameplayController : MonoBehaviour
 {
@@ -69,7 +70,12 @@ public class gameplayController : MonoBehaviour
 
     public void RestartGame()
     {
-        SceneFader.instance.FadeIn(Application.loadedLevelName); //gameplay level?
+        //SceneFader.instance.FadeIn(Application.loadedLevelName); //gameplay level? outdated
+          
+
+
+        //SceneFader.instance.FadeIn(LoadScene(loadedlevelName));
+        SceneFader.instance.FadeIn(SceneManager.GetActiveScene().name);
     }
 
 

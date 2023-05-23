@@ -142,8 +142,9 @@ public class BirdScript : MonoBehaviour
         if (collision.tag == TagManager.PIPE_HOLDER_TAG) {
 
             audioSource.PlayOneShot(pointClip);
+            score++; //bug fixed by moving this above the line that's below.. previously, it didn't count the fist jump
             gameplayController.instance.SetScore(score);
-            score++;
+            
         
         }
     }
