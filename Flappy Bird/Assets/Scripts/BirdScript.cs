@@ -128,6 +128,7 @@ public class BirdScript : MonoBehaviour
                 isAlive = false;
                 anim.SetTrigger(TagManager.BIRD_DIED_PARAMETER);
                 audioSource.PlayOneShot(diedClip);
+                gameplayController.instance.PlayerDiedShowScore(score);
             }
         
         
@@ -141,6 +142,7 @@ public class BirdScript : MonoBehaviour
         if (collision.tag == TagManager.PIPE_HOLDER_TAG) {
 
             audioSource.PlayOneShot(pointClip);
+            gameplayController.instance.SetScore(score);
             score++;
         
         }
