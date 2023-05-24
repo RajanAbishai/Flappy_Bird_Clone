@@ -15,7 +15,7 @@ public class gameplayController : MonoBehaviour
     private Button restartGameButton, instructionsButton;
 
     [SerializeField]
-    private GameObject pausePanel;
+    private GameObject pausePanel, playerDeadPanel;
 
     [SerializeField]
     private GameObject[] birds;
@@ -102,7 +102,9 @@ public class gameplayController : MonoBehaviour
 
     public void PlayerDiedShowScore(int Score)
     {
-        pausePanel.SetActive(true);
+        //pausePanel.SetActive(true); //removed the pause panel because the pause panel had the button to resume rather than restart. We need to restart when we die
+        playerDeadPanel.SetActive(true);
+
         gameOverText.gameObject.SetActive(true);
         scoreText.gameObject.SetActive(false);
 
