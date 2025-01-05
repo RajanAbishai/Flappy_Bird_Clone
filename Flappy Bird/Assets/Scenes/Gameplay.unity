@@ -1114,7 +1114,7 @@ MonoBehaviour:
   - {fileID: 21300042, guid: 0c6fa29fd59bf604299f0d4eb1ab9863, type: 3}
   - {fileID: 21300038, guid: 0c6fa29fd59bf604299f0d4eb1ab9863, type: 3}
   - {fileID: 21300040, guid: 0c6fa29fd59bf604299f0d4eb1ab9863, type: 3}
-  medalImage: {fileID: 0}
+  medalImage: {fileID: 277521755}
 --- !u!4 &297398915
 Transform:
   m_ObjectHideFlags: 0

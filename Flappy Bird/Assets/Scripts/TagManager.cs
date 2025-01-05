@@ -18,4 +18,5 @@ public class TagManager : MonoBehaviour
     public static string BIRD_DIED_PARAMETER="Bird Died";
 
 
+    public static string MAIN_MENU_TAG="MainMenu";
 }

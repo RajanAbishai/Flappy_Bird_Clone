@@ -26,6 +26,8 @@ public class gameplayController : MonoBehaviour
     [SerializeField]
     private Image medalImage;
 
+    /*[SerializeField]
+    private Sprite medalImage;*/ //CLOSED because medal image is giving problems
 
     void Awake()
     {
@@ -65,7 +67,7 @@ public class gameplayController : MonoBehaviour
 
     public void GoToMenuButton()
     {
-        SceneFader.instance.FadeIn("MainMenu");
+        SceneFader.instance.FadeIn(TagManager.MAIN_MENU_TAG);
     }
 
     public void RestartGame()
